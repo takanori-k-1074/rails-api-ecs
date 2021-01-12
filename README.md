@@ -1,24 +1,27 @@
-# README
+## 概要
+vueで作成しているポートフォリオページ(github上vue-pages)のapi連携用として作成しておりインフラにAWS(ECS)を使用し現状をデプロイまで実施しています。<br>
+開発途中
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## apiサンプル(json)
+http://rails-ecs-alb-920434585.ap-northeast-1.elb.amazonaws.com/api/v1/weather
 
-Things you may want to cover:
 
-* Ruby version
+## 使用技術
 
-* System dependencies
+### 開発環境
 
-* Configuration
+- Docker
+- GitHub
+### バックエンド
 
-* Database creation
+- Ruby 2.7.1
+- Ruby on Rails 6.1.0
+- MySQL 5.7
 
-* Database initialization
+### インフラ
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- AWS
+  - ECS 
+    - ECR
+    - EC2
+  - RDS
