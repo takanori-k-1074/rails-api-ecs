@@ -1,9 +1,9 @@
 ## 概要
-vueで作成しているポートフォリオページ(github上vue-pages)のapi連携用として作成しておりインフラにAWS(ECS)を使用し現状をデプロイまで実施しています。<br>
+vueで作成しているポートフォリオページ(github上vue-pages)のapi連携用として作成しておりインフラにAWS(ECS)を使用し現状をデプロイまで実施しましたが１月のAWS維持費が5000円位上がってしまったので安くなる様に作成しなおし中。<br>
 開発途中
 
 ## apiサンプル(json)
-http://rails-ecs-alb-920434585.ap-northeast-1.elb.amazonaws.com/api/v1/weather
+作成しなおし中
 
 
 ## 使用技術
