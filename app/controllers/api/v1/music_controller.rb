@@ -1,5 +1,4 @@
 class Api::V1::MusicController < ApplicationController
-  protect_from_forgery except: [:create, :update, :destroy]
 
   def index
     @musics = Music.all
