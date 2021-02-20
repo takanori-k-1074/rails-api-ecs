@@ -51,7 +51,6 @@ test:
 production:
   <<: *default
   database: app_production
-  username: root #rootに変更
-  host: <%= ENV.fetch("DB_HOST") { "127.0.0.1" } %>
+  username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
