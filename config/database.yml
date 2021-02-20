@@ -13,8 +13,8 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <%= ENV.fetch("MYSQL_USERNAME", "root") %>
-  password: "password"
+  username: root
+  password:
   host: <%= ENV.fetch("DB_HOST") { "127.0.0.1" } %>
   # host: db
   # username: root
@@ -56,6 +56,5 @@ production:
   <<: *default
   database: app_production
   username: root
-  host: <%= ENV.fetch("DB_HOST") { "127.0.0.1" } %>
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
