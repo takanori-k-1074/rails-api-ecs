@@ -20,7 +20,5 @@ http://54.95.76.186/api/v1/music<br>
 ### インフラ
 
 - AWS
-  - ECS 
-    - ECR
-    - EC2
-  - RDS
+  - EC2
+当初ecs使用していましたが月額費用増加によりec2に切替
